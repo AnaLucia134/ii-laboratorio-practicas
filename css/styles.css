@@ -60,7 +60,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -2884,7 +2883,7 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-select:invalid, .form-select.is-invalid {
-  border-color: #dc3545;
+  border-color: #3c869d;
 }
 .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"] {
   padding-right: 4.125rem;
@@ -2893,21 +2892,21 @@ textarea.form-control-lg {
   background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
-  border-color: #dc3545;
+  border-color: #3c869d;
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .form-check-input:invalid, .form-check-input.is-invalid {
-  border-color: #dc3545;
+  border-color: #3c869d;
 }
 .was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
-  background-color: #dc3545;
+  background-color: #3c869d;
 }
 .was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
 }
 .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
-  color: #dc3545;
+  color: #3c869d;
 }
 
 .form-check-inline .form-check-input ~ .invalid-feedback {
@@ -2965,7 +2964,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #3c869d;
+  background-color: #fed821;
   border-color: #3c869d;
 }
 .btn-primary:hover {
@@ -3115,8 +3114,8 @@ textarea.form-control-lg {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-danger:hover {
   color: #fff;
@@ -3139,8 +3138,8 @@ textarea.form-control-lg {
 }
 .btn-danger:disabled, .btn-danger.disabled {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #3c869d;
+  border-color: #3c869d;
 }
 
 .btn-light {
@@ -3150,7 +3149,7 @@ textarea.form-control-lg {
 }
 .btn-light:hover {
   color: #000;
-  background-color: #f9fafb;
+  background-color: #fed821;
   border-color: #f9fafb;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -3204,27 +3203,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #f4623a;
-  border-color: #f4623a;
+  color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #f4623a;
+  color: #3c869d;
   background-color: transparent;
 }
 
@@ -3329,27 +3328,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-danger {
-  color: #dc3545;
-  border-color: #dc3545;
+  color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-outline-danger:hover {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-check:focus + .btn-outline-danger, .btn-outline-danger:focus {
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
 }
 .btn-check:checked + .btn-outline-danger, .btn-check:active + .btn-outline-danger, .btn-outline-danger:active, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #3c869d;
+  border-color: #3c869d;
 }
 .btn-check:checked + .btn-outline-danger:focus, .btn-check:active + .btn-outline-danger:focus, .btn-outline-danger:active:focus, .btn-outline-danger.active:focus, .btn-outline-danger.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
 }
 .btn-outline-danger:disabled, .btn-outline-danger.disabled {
-  color: #dc3545;
+  color: #3c869d;
   background-color: transparent;
 }
 
@@ -3405,11 +3404,11 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #f4623a;
+  color: #3c869d;
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #c34e2e;
+  color: #3c869d;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3745,7 +3744,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #3c869d;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -3877,7 +3876,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #c34e2e;
+  color: #3c869d;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4451,7 +4450,7 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #dc5834;
+  color: #3c869d;
   background-color: #feefeb;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
@@ -4569,7 +4568,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #f4623a;
+  color: #3c869d;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -5920,7 +5919,7 @@ textarea.form-control-lg {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #fed821;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -6936,8 +6935,10 @@ textarea.form-control-lg {
   margin-bottom: auto !important;
 }
 
-.mt-0 {
+
+.mt-0-1 {
   margin-top: 0 !important;
+  color: #fff;
 }
 
 .mt-1 {
@@ -7010,7 +7011,9 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  color: #fff;
 }
+
 
 .mb-5 {
   margin-bottom: 3rem !important;
@@ -7352,7 +7355,8 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #f4623a !important;
+  color: #fed821
+  !important;
 }
 
 .text-secondary {
@@ -7394,6 +7398,9 @@ textarea.form-control-lg {
 .text-muted {
   color: #6c757d !important;
 }
+.text-muted-secundary {
+  color: #fff !important;
+}
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
@@ -7408,7 +7415,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #47abc8  !important;
+  background-color: #3c869d  !important;
 }
 
 .bg-secondary {
@@ -7436,7 +7443,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #3c869d !important;
 }
 
 .bg-body {
@@ -10883,12 +10890,13 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #fed821
+ ;
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: #fed821;
 }
 
 #mainNav {
@@ -11015,8 +11023,17 @@ header.masthead h1, header.masthead .h1 {
   text-transform: uppercase;
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-size: 0.65rem;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+.color-carrusel{
+  color: black;
+}
+.img-color{
+  color: #fff;
+}
+.contacto{
+  color: #fff;
 }
